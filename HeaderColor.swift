@@ -27,7 +27,7 @@ public struct Font {
 
     // MARK: Button
 
-struct Button {
+public struct Button {
     public static var centralButton: UIButton = {
     let button = UIButton(frame: CGRect(x: 100, y: 100, width: 90, height: 20))
     button.backgroundColor = UIColor(red: 0.55, green:0.59, blue:0.37, alpha: 1)
