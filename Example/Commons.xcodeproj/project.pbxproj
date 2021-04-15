@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		050A8A1B333A51D757798975 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		050A8A1B333A51D757798975 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0FBF47661983A9EB9AF51996 /* Pods_Commons_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Commons_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D5DFBF072FAA523A09CFC7 /* Pods-Commons_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Commons_Example.debug.xcconfig"; path = "Target Support Files/Pods-Commons_Example/Pods-Commons_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2C1C133141C62FBD9E1B08DA /* Pods-Commons_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Commons_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Commons_Tests/Pods-Commons_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		79118BB4B3012A2F18FC5D7D /* Pods_Commons_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Commons_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C557E23BDD46ED7FD2FA00 /* Pods-Commons_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Commons_Example.release.xcconfig"; path = "Target Support Files/Pods-Commons_Example/Pods-Commons_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C3C048E260EDE8AF41D7A75C /* Commons.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Commons.podspec; path = ../Commons.podspec; sourceTree = "<group>"; };
-		DCBAA05162E53B1F0E045577 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C3C048E260EDE8AF41D7A75C /* Commons.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Commons.podspec; path = ../Commons.podspec; sourceTree = "<group>"; };
+		DCBAA05162E53B1F0E045577 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				2C1C133141C62FBD9E1B08DA /* Pods-Commons_Tests.debug.xcconfig */,
 				3BF11F2BACC22913AB7882B6 /* Pods-Commons_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -172,6 +171,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				2B82B744F8ABEFEBD6998962 /* [CP] Embed Pods Frameworks */,
+				C10841232628ADD00010BEAE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -305,6 +306,23 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Commons_Example/Pods-Commons_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		C10841232628ADD00010BEAE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\nif which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\n\n${PODS_ROOT}/SwiftLint/swiftlint\n\nelse\n\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n\nfi\n";
 		};
 		F29DDD8E8F61C1F96FA4EBA1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
