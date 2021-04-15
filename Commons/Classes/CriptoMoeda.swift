@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct CriptoMoeda: Codable {
+public struct CriptoMoeda: Codable {
     let idIcon: String
     let assetID: String
     let name: String
