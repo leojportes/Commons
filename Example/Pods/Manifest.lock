@@ -1,8 +1,14 @@
 PODS:
   - Commons (0.1.0)
+  - SwiftLint (0.43.1)
 
 DEPENDENCIES:
   - Commons (from `../`)
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - SwiftLint
 
 EXTERNAL SOURCES:
   Commons:
@@ -10,7 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Commons: 5909d5dc693d7ebf877141e4650929951faa0d02
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
 
-PODFILE CHECKSUM: 1754379e155109e77ea1bebc788b2eb02dfb7db8
+PODFILE CHECKSUM: 91b9dfefdce762363b7a35b94852dafe727c97d2
 
 COCOAPODS: 1.10.1
