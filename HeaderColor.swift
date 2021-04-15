@@ -27,6 +27,7 @@ public struct Font {
 
     // MARK: Button
 
+
 public struct Button {
     public static var centralButton: UIButton = {
     let button = UIButton(frame: CGRect(x: 100, y: 100, width: 90, height: 20))
