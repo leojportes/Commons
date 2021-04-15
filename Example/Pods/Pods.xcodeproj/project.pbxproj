@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = SwiftLint;
+			productName = SwiftLint;
 		};
 /* End PBXAggregateTarget section */
 
@@ -24,10 +25,12 @@
 		557ED33A1BD934ED24514BD226C3706D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		697F3DD86141EA8EB647928656A92B96 /* Pods-Commons_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E630F87D73385B1B1FC9805D9A3FDBC8 /* Pods-Commons_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4F5FCF133BD42C3A87AE15C847CCC88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C13ECEFC2627C62800EE1FFA /* HeaderColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13ECEFB2627C62800EE1FFA /* HeaderColor.swift */; };
+		C13ECF062627C65D00EE1FFA /* CriptoMoeda.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13ECF052627C65C00EE1FFA /* CriptoMoeda.swift */; };
+		C13ECF0C2627C68000EE1FFA /* ApiRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13ECF0B2627C68000EE1FFA /* ApiRest.swift */; };
 		DBA7E736B226A6988F6C351A86A2801C /* Pods-Commons_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14432B3B04CFA70E23C564333B9E79E3 /* Pods-Commons_Tests-dummy.m */; };
 		EA0D3402FB6824D1EB5F4B120F38EDF3 /* Pods-Commons_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7890FB2033F4F29B561A0FE46D9A347 /* Pods-Commons_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1E67F8E4EE9C86888F1A78E917B7776 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F2F6CFF91B7055B57149AC4F406A0C92 /* HeaderColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3AF8AF0603C9C23D6B20F8E776075 /* HeaderColors.swift */; };
 		F44F31456B324D4D973D49D12EEED024 /* Pods-Commons_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8126B6C2E11B749A013132EAB3D394FF /* Pods-Commons_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +60,7 @@
 
 /* Begin PBXFileReference section */
 		109A456890D40A8DC92E80610529D1A0 /* Pods-Commons_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Commons_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		11BD16C55600A929B845424F8EC8D028 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		11BD16C55600A929B845424F8EC8D028 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		14432B3B04CFA70E23C564333B9E79E3 /* Pods-Commons_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Commons_Tests-dummy.m"; sourceTree = "<group>"; };
 		17133934243C79EC9C40A4C9056339E7 /* Pods-Commons_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Commons_Example.release.xcconfig"; sourceTree = "<group>"; };
 		25414861814761642A51CE2B7B86B34C /* Pods-Commons_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Commons_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -69,27 +72,29 @@
 		6EDF690C8F7E143B1C49469522FFD1FC /* Commons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Commons-dummy.m"; sourceTree = "<group>"; };
 		7162B784022015D26DA3FF36C6C264E9 /* Commons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Commons.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7BB48D1A6508CEB6BB5E6E19CB88A4BD /* Pods_Commons_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Commons_Tests.framework; path = "Pods-Commons_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB48D1A6508CEB6BB5E6E19CB88A4BD /* Pods_Commons_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Commons_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
 		80AC62E007EDFEED9C9BAC0B173CA878 /* Pods-Commons_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Commons_Example.modulemap"; sourceTree = "<group>"; };
 		8126B6C2E11B749A013132EAB3D394FF /* Pods-Commons_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Commons_Example-dummy.m"; sourceTree = "<group>"; };
 		999DAA632DF39A0BB4656CF08E0C9E94 /* Pods-Commons_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Commons_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9C2756AA087BD698ADE7EB163A21721A /* Pods_Commons_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Commons_Example.framework; path = "Pods-Commons_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E36BCCE2A4E58B621416B17FE07226A /* Commons.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Commons.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C2756AA087BD698ADE7EB163A21721A /* Pods_Commons_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Commons_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E36BCCE2A4E58B621416B17FE07226A /* Commons.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Commons.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A31993455B678F3C237ACE0E212C44C6 /* Commons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Commons-umbrella.h"; sourceTree = "<group>"; };
 		A33FC94D3C54C67A66AA2907E92AC52F /* Pods-Commons_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Commons_Tests-Info.plist"; sourceTree = "<group>"; };
-		A715A5BCE467996A0729CB778EA5928C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		A8D3AF8AF0603C9C23D6B20F8E776075 /* HeaderColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderColors.swift; path = Commons/Classes/HeaderColors.swift; sourceTree = "<group>"; };
+		A715A5BCE467996A0729CB778EA5928C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AF1967E3385219AADE8B8FB1CED9AE0D /* Pods-Commons_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Commons_Tests.modulemap"; sourceTree = "<group>"; };
 		C1216CE319EC72C82723513AA9278B16 /* Commons.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Commons.release.xcconfig; sourceTree = "<group>"; };
+		C13ECEFB2627C62800EE1FFA /* HeaderColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderColor.swift; sourceTree = "<group>"; };
+		C13ECF052627C65C00EE1FFA /* CriptoMoeda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriptoMoeda.swift; sourceTree = "<group>"; };
+		C13ECF0B2627C68000EE1FFA /* ApiRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRest.swift; sourceTree = "<group>"; };
 		C24FF62D7DC2152D4184F1F99A54652A /* Pods-Commons_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Commons_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CA3ADE8FA639BB9654C390A0BED8F118 /* Pods-Commons_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Commons_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D3FFA3D7988FE770E2F279B61288B61E /* Commons-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Commons-Info.plist"; sourceTree = "<group>"; };
 		D73CD56A21CE4A33E8528BB7BE512B27 /* Pods-Commons_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Commons_Example-Info.plist"; sourceTree = "<group>"; };
 		E630F87D73385B1B1FC9805D9A3FDBC8 /* Pods-Commons_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Commons_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E7890FB2033F4F29B561A0FE46D9A347 /* Pods-Commons_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Commons_Example-umbrella.h"; sourceTree = "<group>"; };
-		E7FEC60AC5F30530F8B77FE30600893F /* Commons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Commons.framework; path = Commons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7FEC60AC5F30530F8B77FE30600893F /* Commons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Commons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C35C4AC56E5090E8617DBE07146CEF /* Commons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Commons-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,7 +146,9 @@
 		329BB3DF14D226D134B71ED015F52D5E /* Commons */ = {
 			isa = PBXGroup;
 			children = (
-				A8D3AF8AF0603C9C23D6B20F8E776075 /* HeaderColors.swift */,
+				C13ECEFB2627C62800EE1FFA /* HeaderColor.swift */,
+				C13ECF052627C65C00EE1FFA /* CriptoMoeda.swift */,
+				C13ECF0B2627C68000EE1FFA /* ApiRest.swift */,
 				830497BFB0E519FF0568C00F18F48301 /* Pod */,
 				B9576C9276AC6BA8BAB376EC2D25818F /* Support Files */,
 			);
@@ -258,7 +265,6 @@
 			children = (
 				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
 			);
-			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
@@ -426,8 +432,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C13ECF0C2627C68000EE1FFA /* ApiRest.swift in Sources */,
+				C13ECF062627C65D00EE1FFA /* CriptoMoeda.swift in Sources */,
+				C13ECEFC2627C62800EE1FFA /* HeaderColor.swift in Sources */,
 				52788CC8D06A36D88ADC41AF3BE43AF0 /* Commons-dummy.m in Sources */,
-				F2F6CFF91B7055B57149AC4F406A0C92 /* HeaderColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -682,8 +690,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
