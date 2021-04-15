@@ -20,9 +20,10 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jkf-vs-ne1">
-                                <rect key="frame" x="164" y="304" width="46" height="30"/>
+                                <rect key="frame" x="109" y="366" width="184" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Adicionar"/>
                                 <connections>
                                     <action selector="btAdd:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="HdV-OJ-Xzg"/>
                                 </connections>
@@ -33,7 +34,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="17" y="99"/>
+            <point key="canvasLocation" x="16.800000000000001" y="98.50074962518741"/>
         </scene>
     </scenes>
 </document>
