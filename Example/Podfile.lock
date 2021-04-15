@@ -1,13 +1,20 @@
 PODS:
+  - Alamofire (5.4.2)
+  - AlamofireImage (4.1.0):
+    - Alamofire (~> 5.1)
   - Commons (0.1.0)
   - SwiftLint (0.43.1)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.4.1)
+  - AlamofireImage (~> 4.1.0)
   - Commons (from `../`)
   - SwiftLint
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - AlamofireImage
     - SwiftLint
 
 EXTERNAL SOURCES:
@@ -15,9 +22,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
+  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
   Commons: 5909d5dc693d7ebf877141e4650929951faa0d02
   SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
 
-PODFILE CHECKSUM: 91b9dfefdce762363b7a35b94852dafe727c97d2
+PODFILE CHECKSUM: 5f82600e38cf139d297cf1cc1d74d4c9132a55dd
 
 COCOAPODS: 1.10.1
