@@ -35,4 +35,3 @@ struct CriptoMoeda: Codable {
         case priceUsd = "price_usd"
     }
 }
- 
