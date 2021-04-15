@@ -9,13 +9,13 @@ import Foundation
 
 
 public struct CriptoMoeda: Codable {
-    let idIcon: String
-    let assetID: String
-    let name: String
-    let dataStart, dataEnd, dataQuoteStart, dataQuoteEnd: Int
-    let dataOrderbookStart, dataOrderbookEnd, dataTradeStart, dataTradeEnd: Int
-    let dataSymbolsCount, volume1HrsUsd, volume1DayUsd, volume1MthUsd: Int
-    let priceUsd: Int
+    public let idIcon: String
+    public let assetID: String
+    public let name: String
+    public let dataStart, dataEnd, dataQuoteStart, dataQuoteEnd: Int
+    public let dataOrderbookStart, dataOrderbookEnd, dataTradeStart, dataTradeEnd: Int
+    public let dataSymbolsCount, volume1HrsUsd, volume1DayUsd, volume1MthUsd: Int
+    public let priceUsd: Int
 
     enum CodingKeys: String, CodingKey {
         case idIcon = "id_icon"
