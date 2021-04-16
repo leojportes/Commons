@@ -21,5 +21,22 @@ public struct FormataDados {
           let dataAtual = formatador.string(from: data)
           return dataAtual.lowercased()
         }
-    
+}
+
+
+extension Double {
+
+    public func formatador() -> String {
+       
+        let numberFormatter = NumberFormatter()
+        numberFormatter.numberStyle = .decimal
+        numberFormatter.maximumFractionDigits = 2
+        numberFormatter.minimumFractionDigits = 2
+        numberFormatter.decimalSeparator = ","
+        numberFormatter.groupingSeparator = "."
+        let numero = NSNumber(value: self)
+        let numeroFormatado = numberFormatter.string(from: numero) ?? ""
+        return "$ \(numeroFormatado)"
+    }
+
 }
