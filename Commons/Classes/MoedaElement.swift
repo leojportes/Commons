@@ -18,7 +18,7 @@ public struct MoedaElement: Codable {
     public let volume1HrsUsd, volume1DayUsd, volume1MthUsd, priceUsd: Double
     public let idIcon: String
 
-    enum CodingKeys: String, CodingKey {
+public enum CodingKeys: String, CodingKey {
         case assetID = "asset_id"
         case name
         case typeIsCrypto = "type_is_crypto"
@@ -39,4 +39,4 @@ public struct MoedaElement: Codable {
     }
 }
 
-typealias Moeda = [MoedaElement]
+public typealias Moeda = [MoedaElement]
