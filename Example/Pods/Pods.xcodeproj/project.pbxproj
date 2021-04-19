@@ -83,7 +83,6 @@
 		DEE08B6E3A19B52405AEF8E8D9A769C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC44BC108255F6766BF5383BF088F46 /* Foundation.framework */; };
 		EDC93BD7B9262119AE145E4C7A9D0212 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4E59B8343ADA70AC7E64F5C6AA43A /* Request.swift */; };
 		F0F3224FF592F9BA2A044A2FC2BD4CCD /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226241F112422F1EF841485A95400FA /* Validation.swift */; };
-		F16540254BED02A415C29C53F98EC6D4 /* Criptomoeda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BD8DCE42C2BEBE9FFA044682D00873 /* Criptomoeda.swift */; };
 		F70EF854395CDE981A8336E4FF0310FE /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099A94240820C430CD4C73661C5CFBB7 /* URLSessionConfiguration+Alamofire.swift */; };
 		FDD78BA9B2219F0023C6316F90C8D0E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC44BC108255F6766BF5383BF088F46 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -149,7 +148,6 @@
 		26B0D19921F96088A7D0FA8A513443A1 /* AlamofireImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireImage-prefix.pch"; sourceTree = "<group>"; };
 		2B08E4278F65F4CAE87480782E428878 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		2EB253F0DD93AEB6E1E89D283D67DBA1 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
-		31BD8DCE42C2BEBE9FFA044682D00873 /* Criptomoeda.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Criptomoeda.swift; path = Commons/Classes/Criptomoeda.swift; sourceTree = "<group>"; };
 		328A8DAD8B24C6C8CC0EC28045212FC9 /* Pods-Commons_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Commons_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		336251F5B25C6C6E5215B51592254DF9 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
 		33B05A9247E8838F3204BCF38C07B32D /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
@@ -433,7 +431,6 @@
 			isa = PBXGroup;
 			children = (
 				70B690FAA7ACF205626CF1CF9353C2F1 /* ApiRest.swift */,
-				31BD8DCE42C2BEBE9FFA044682D00873 /* Criptomoeda.swift */,
 				DADE320560FA9D566C7DA9DF1574DEF8 /* FormataDados.swift */,
 				ED91C340D539EB9DAD7C67BD3B881703 /* HeaderColor.swift */,
 				7282917A623701897FE80ECC1F7E436F /* MoedaElement.swift */,
@@ -820,7 +817,6 @@
 			files = (
 				A89729FBDC0DDB9A32E4A00F0148B9C2 /* ApiRest.swift in Sources */,
 				BA5E3AD0BFA4D5F0647B6645A1C783F0 /* Commons-dummy.m in Sources */,
-				F16540254BED02A415C29C53F98EC6D4 /* Criptomoeda.swift in Sources */,
 				594CECDEC2F1487E39AA2B846CEDF74F /* FormataDados.swift in Sources */,
 				9F6831CCF0E9BC4C3BBE07C06461A124 /* HeaderColor.swift in Sources */,
 				470D56CF19BA96BBA0997E51682E8C62 /* MoedaElement.swift in Sources */,
